@@ -25,3 +25,13 @@
 ## 요약
 
 > 완벽한 토대는 없다. 그러나 확신이 어떤 구조 위에서 작동하는지는 해명할 수 있다.
+
+## 빌드
+
+```bash
+pdflatex -interaction=nonstopmode "자기도출과 확신의 구조.tex"
+pdflatex -interaction=nonstopmode "자기도출과 확신의 구조.tex"  # TOC 반영을 위해 2회 실행
+```
+
+- **요구사항**: TeX Live (kotex 패키지 포함)
+- **주의**: `xelatex` 대신 `pdflatex` 사용 (폰트 일관성)
